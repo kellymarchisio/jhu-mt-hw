@@ -141,7 +141,7 @@ class EncoderRNN(nn.Module):
     def __init__(self, input_size, hidden_size):
         super(EncoderRNN, self).__init__()
         self.hidden_size = hidden_size
-        """Initilize a word embedding and bi-directional LSTM encoder
+        """Initilize a word embedding and LSTM encoder
         For this assignment, you should *NOT* use nn.LSTM. 
         Instead, you should implement the equations yourself.
         See, for example, https://en.wikipedia.org/wiki/Long_short-term_memory#LSTM_with_a_forget_gate
